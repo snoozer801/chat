@@ -53,6 +53,6 @@ config :chat, Chat.Repo,
   adapter: Ecto.Adapters.Postgres,
   username: "postgres",
   password: "postgres",
-  database: "chatter_dev",
+  database: "chat_dev",
   hostname: "localhost",
   pool_size: 10
